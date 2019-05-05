@@ -1,8 +1,9 @@
-<!--Author: Cody D'Orazio
+/*Author: Cody D'Orazio
     Assignment: Search filter project
     Date last edited: 5/4/19
-    -->
+    */
 
+// Sport Variables for HTML format
 var sport = [
     'Lacrosse',
     'Soccer',
@@ -10,6 +11,19 @@ var sport = [
     'Polo',
     'Baseball',
     'Football',
+    'Cycling',
+    'Fishing',
+    'Hunting',
+    'Golf',
+    'Gymnastics',
+    'Wrestling',
+    //Added "-" to Cross Country because of "incomplete Classpath Warning"
+    'Cross_Country',
+    'Hockey',
+    'Weightlifting',
+    //Added "-" to Motor Sports because of "incomplete Classpath Warning"
+    'Motor_Sports',
+    'Skating',
     ];
 
 ul = document.getElementById("sport-list");
