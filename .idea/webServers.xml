@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3da22a8c-f948-4e2d-8639-b4fd73a73d3a" name="TeamCity" url="http://localhost:81">
+        <fileTransfer port="0" mountedRoot="C:\TeamCity" accessType="MOUNT" />
+      </webServer>
+      <webServer id="06a9f4fe-759e-427e-84f3-14aaa2a2e342" name="Hub" url="http://localhost">
+        <fileTransfer port="0" accessType="MOUNT">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

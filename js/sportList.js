@@ -24,30 +24,41 @@ var sport = [
     //Added "-" to Motor Sports because of "incomplete Classpath Warning"
     'Motor_Sports',
     'Skating',
-    ];
+];
 
 ul = document.getElementById("sport-list");
 
 var render_lists = function (lists) {
     var li = "";
-    for(index in lists) {
+    for (index in lists) {
         li += "<li>" + lists[index] + "</li>";
     }
     ul.innerHTML = li;
-}
+};
 render_lists(sport);
 
 
 input = document.getElementById('filter_sport');
 
-var filter_sport = function (event) {
+var filterSport = function (event) {
     keyword = input.value.toLowerCase();
-    sport.filter(function(sport){
-        sport=sport.toLowerCase();
+    filtered_sport = sport.filter(funtion(sport);
+    {
+        sport = sport.toLowerCase();
+        return sport.indexOf(keyword) > -1;
+    }
+)
+    render_lists(filtered_sport);
+};
+input.addEventListener('keyup', filterSport);
 
-        return;
-        sport.indexOf(keyword) > -1;
-    });
-    render_lists(filter_sport());
-}
-input.addEventListener('keyup',filter_sport);
+/*
+myFunction;
+loadScript(url);
+{
+    var head = document.getElementsByTagName('Head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    head.appendChild(script);
+}*/

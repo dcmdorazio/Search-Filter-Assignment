@@ -4,15 +4,115 @@
     -->
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
+    <meta name = "viewport" content ="width = device-width, initial-scale =1">
 <!--    Title here is the tab attribute that pops up on a new tab-->
     <title>Sport picker</title>
+    <style>
+        * { box-sizing: border-box}
+        #table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+        #filter_sports {
+            width:100%;
+            padding: 10px;
+        }
+
+        #sport-list {
+            margin:0;
+            padding:0;
+        }
+
+        #sport-list li {
+            list-style: none;
+            padding:10px;
+            margin: 5px 0;
+            border: 1px solid crimson;
+        }
+
+        #header {
+            border: #49b2b0;
+        }
+        #footer {
+            border: #1a237e;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .head1 {
+            font-size: 40px;
+            color: #b20004;
+            font-weight: initial;
+        }
+        .head2 {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+        }
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            color: white;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        list {
+            right: auto;
+            float: right;
+        }
+        .body_sec {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 
 <body>
+<header>
+    <div class = "head1" > Sport Search</div>
+    <div class = "head2" > A search for your favorite Sport!</div>
+</header>
+
+<! Menu Navigation Bar -->
+<div class = "menu">
+   <!-- <a href = "#home"> HOME</a>
+    <a href = "#news"> NEWS</a>
+    <a href = "#notification"> NOTIFICATIONS</a>
+    <div class = "menu-log"></div>
+    <a href = "#login">LOGIN</a>-->
+    <b href = "#hi">HI</b>
+</div>
+<!-- Body section -->
+<div class = "body_sec">
+    <section id ="Content">
+    </section>
+</div>
+
+<!Footer Section -->
+<footer>Footer Section</footer>
+
 
 <input type="text"
 placeholder="Search for your sport"
