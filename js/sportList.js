@@ -46,13 +46,11 @@ var filterSport = function (event) {
     {
         sport = sport.toLowerCase();
         return sport.indexOf(keyword) > -1;
-    }
-)
+    });
     render_lists(filtered_sport);
 };
 input.addEventListener('keyup', filterSport);
 
-/*
 myFunction;
 loadScript(url);
 {
@@ -61,4 +59,4 @@ loadScript(url);
     script.type = 'text/javascript';
     script.src = url;
     head.appendChild(script);
-}*/
+}
