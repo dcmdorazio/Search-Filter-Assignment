@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="529a2657-26df-4db8-8712-fa757364c7f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sport search.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sport search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sportList.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sportList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +37,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/js/sportList.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="291">
-                    <caret line="52" selection-start-line="52" selection-end-line="52" />
+                  <state relative-caret-position="185">
+                    <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
                     <folding>
                       <element signature="n#!!doc" expanded="true" />
                     </folding>
@@ -59,8 +59,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/sport search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="171" column="9" lean-forward="true" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#b#0;n#a#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +100,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="8eed3e0f-5cce-4b61-aa57-a1609128ba36" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -132,8 +132,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="77" />
+    <option name="x" value="237" />
+    <option name="y" value="46" />
     <option name="width" value="1460" />
     <option name="height" value="830" />
   </component>
@@ -143,7 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +175,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +196,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -238,9 +238,6 @@
     </configuration>
     <configuration default="true" type="FlutterTestConfigType" factoryName="Flutter Test">
       <option name="testDir" value="C:\Users\cxdor\IdeaProjects\searchFilter1" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sportList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="sportList.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <configuration default="true" type="WebSphereRunConfigurationType" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -307,11 +304,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.sportList.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -345,6 +337,8 @@
       <workItem from="1557361583768" duration="2846000" />
       <workItem from="1557366450933" duration="3028000" />
       <workItem from="1557445358831" duration="590000" />
+      <workItem from="1557458423313" duration="254000" />
+      <workItem from="1557458753996" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="added attributes to the layout styles.css file.">
       <created>1557016662636</created>
@@ -382,12 +376,13 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39600000" />
+    <option name="totallyTimeSpent" value="43745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="62" width="1168" height="664" extended-state="0" />
+    <frame x="190" y="37" width="1168" height="664" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25451264" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19597316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +401,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50090253" side_tool="true" weight="0.35757574" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.20726784" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3295129" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3287879" />
       <window_info anchor="bottom" id="YouTrack" order="15" sideWeight="0.49909747" weight="0.36060607" />
@@ -545,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sportList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="185">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -555,8 +550,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/sport search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+        <state relative-caret-position="374">
+          <caret line="171" column="9" lean-forward="true" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#a#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
