@@ -9,6 +9,7 @@
 }
 
 #sport-list li {
+    /*TODO: give the list a style*/
     list-style: none;
     padding:10px;
     margin: 5px 0;
@@ -21,4 +22,11 @@
 
 #footer {
     border: #1a237e;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
