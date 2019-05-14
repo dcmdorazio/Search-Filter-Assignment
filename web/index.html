@@ -48,7 +48,6 @@
         #input {
             background-image: none;
             background-position: 10px 10px;
-            background-repeat: no repeat;
             width: 100%;
             font-size: 16px;
             padding: 12px;
@@ -129,7 +128,7 @@
             bottom: 0px;
             background-color: #000;
             color: #fff;
-            position: bottom;
+            position: absolute;
             padding-top: 20px;
             padding-bottom: 50px;
             text-align: center;
@@ -146,7 +145,8 @@
 
 <body>
 <header>
-    <img src="C:\Users\cxdor\IdeaProjects\searchFilter1\img\cover_picture.png" alt="cover picture" style= "width:300px; height:400px; class: center">
+    <div class="head1"
+    <img alt="cover" src="cover.png" style="width:300px; height:400px; class: center">
     <!-- <div class="head2"> A search for your favorite Sport!</div> -->
 </header>
 
@@ -159,10 +159,12 @@
     <a href="#login">LOGIN</a>
 </div>
 
-<input type="text"
-       placeholder="Search for your sport"
-       id="filter_sport"
-       onkeyup="myFunction()" placeholder+>
+<label for="table">
+    <!--placeholder="Search for your sport"
+    id="filter_sport"
+    onkeyup="myFunction()" placeholder+>-->
+</label>< input type="text"
+
 
 
 <script>
@@ -180,16 +182,17 @@
 
     input = document.getElementById('filter_sport');
 
-    /* var filterSport = function (event) {
+    var filterSport = function (event) {
           keyword = input.value.toLowerCase();
           filtered_sport = sport.filter(funtion(sport);
           {
               sport = sport.toLowerCase();
               return sport.indexOf(keyword) > -1;
-          });
-          render_lists(filtered_sport);
+          }
+    )
+        render_lists(filtered_sport);
       };
-      */
+
     input.addEventListener('keyup', filterSport);
 
 
